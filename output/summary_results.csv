@@ -1,0 +1,8 @@
+file_name,file_path,inferred_date_format,start_week,end_week,start_week_count,end_week_count,overall_pct_change,trend_direction,num_high_severity_events,num_weeks,bad_timestamps_dropped,weekly_output_file,is_outlier,outlier_reason
+Vicksburg,Data\Vicksburg.csv,dd-mm,2025-11-24,2026-03-22,523,8,-98.47036328871893,Downward,3331,17,0,output\Vicksburg_weekly_analysis.csv,False,
+Maysville,Data\Maysville.csv,dd-mm,2025-12-01,2026-03-22,118,10,-91.52542372881356,Downward,5278,16,0,output\Maysville_weekly_analysis.csv,False,
+Prattville,Data\Prattville.csv,mm-dd,2026-02-09,2026-03-15,11,1,-90.9090909090909,Downward,38,5,0,output\Prattville_weekly_analysis.csv,False,
+Henderson,Data\Henderson.csv,dd-mm,2025-12-15,2026-03-22,184,28,-84.78260869565217,Downward,778,14,0,output\Henderson_weekly_analysis.csv,False,
+CedarRiver,Data\CedarRiver.csv,dd-mm,2025-11-24,2026-03-22,110,50,-54.54545454545454,Downward,17724,17,0,output\CedarRiver_weekly_analysis.csv,False,
+Rome,Data\Rome.csv,mm-dd,2026-03-09,2026-03-15,4,4,0.0,Flat,4,1,1,output\Rome_weekly_analysis.csv,False,
+Pensacola,Data\Pensacola.csv,mm-dd,2026-03-02,2026-03-22,5,314,6180.0,Upward,675,3,0,output\Pensacola_weekly_analysis.csv,True,"overall_pct_change outside IQR bounds [-187.13, 68.64]"
